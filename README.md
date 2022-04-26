@@ -8,7 +8,7 @@ Etu{d,b}e simultaneously refers to the name of the augmented instrument, the eTu
 
 ### Off-the-shelf parts
 
-- Electronic parts
+ Electronic parts
   
   | Item                   | PCS | Ref image                          | Notes                                                       |
   | ---------------------- | --- | ---------------------------------- | ------------------------------------------------------------|
@@ -16,27 +16,27 @@ Etu{d,b}e simultaneously refers to the name of the augmented instrument, the eTu
   | X volt battery         | 1   | ![](img/thumb/esp32.jpg)           |                                                             |  
   | Choco switches         | 1   | ![](img/thumb/esp32.jpg)           |                                                             |  
 
-- Standard parts
+ Standard parts
   
   | Item                            | PCS  | Notes                                       |
   | ------------------------------- | ---- | ------------------------------------------- |
-  | M5-0.8x5mm headless screw       | 1    | Seal the input/output of the cylinder.      |
-  | M2x15 screws                    | N    | You may need to trim some of those shorter. |
+  | M5-0.8x5mm screws               | 2    |  |
+  | M2x15 screws                    | 2    |  |
+  | M2x15 inserts                   | 9    |  |
 
+### 3D printed parts
 
-### 3D printed parts 1
-
-| Item                  | PCS  | Ref image                           | Notes                                                        |
-| --------------------- | ---- | ----------------------------------- | ------------------------------------------------------------ |
-| Mouth Piece Adapter   | 1    | ![](img/thumb/lower.jpg)            | mouthPieceAdapterV2.STL                                      |
-| Ring                  | 1    | ![](img/thumb/upper_l.jpg)          | ringV6.STL                                                   |
-| Switch Holder         | 1    | ![](img/thumb/upper_l.jpg)          | ringV6_Switch.STL                                            |
-| Thumb Rest            | 1    | ![](img/thumb/upper_l.jpg)          | ringV6_Thumb.STL                                             |
-| Battery Holder        | 1    | ![](img/thumb/upper_l.jpg)          | batteryHolder_D32Holder.STL                                  |
+| Item                  | PCS | Ref image                           | Notes            |
+| --------------------- | --- | ----------------------------------- | ---------------- |
+| Mouth Piece Adapter   | 1   | ![](medias/mouthPieceAdapter.png)||
+| Battery Holder        | 1   | ![](medias/batteryHolder.png)||
+| Ring                  | 1   | ![](medias/ring.png)||
+| Switch Holder         | 1   | ![](medias/switchHolder.png)||
+| Thumb Rest            | 1   | ![](medias/thumbRest.png)||
 
 
 ## Firmware
-
+The controller uses the ESP32-BLE-Gamepad library 
 ### Arduino Configuration
 
 ## Communication protocol
