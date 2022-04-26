@@ -1,4 +1,4 @@
-# eTube: augmented instrument controller
+# eTube: An augmented instrument controller
 ![](medias/etube01.jpeg)
 
 Etu{d,b}e simultaneously refers to the name of the augmented instrument, the eTube, and a series of improvised performances based on human-computer musical interactions, or études. Custom electronics based on the esp32 chip are interfacing the sensors and actuators to relay information between the musician and the computer wirelessly. The instrumentalist’s preferences regarding some inherent qualities of sensors and the topology of the 3D printed controller were at the heart of the design process. The controller is attached to the acoustic instrument without obstructing regular playing technique.
@@ -8,7 +8,7 @@ Etu{d,b}e simultaneously refers to the name of the augmented instrument, the eTu
 
 ### Off-the-shelf parts
 
- Electronic parts
+#### Electronic parts
   
   | Item                   | PCS | Ref image                          | Notes                                                       |
   | ---------------------- | --- | ---------------------------------- | ------------------------------------------------------------|
@@ -16,7 +16,7 @@ Etu{d,b}e simultaneously refers to the name of the augmented instrument, the eTu
   | X volt battery         | 1   | ![](img/thumb/esp32.jpg)           |                                                             |  
   | Choco switches         | 1   | ![](img/thumb/esp32.jpg)           |                                                             |  
 
- Standard parts
+#### Standard parts
   
   | Item                            | PCS  | Notes                                       |
   | ------------------------------- | ---- | ------------------------------------------- |
