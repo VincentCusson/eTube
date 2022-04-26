@@ -6,23 +6,22 @@ Etu{d,b}e simultaneously refers to the name of the augmented instrument, the eTu
 
 ## Hardware
 
-### Off-the-shelf parts
-
-#### Electronic parts
+### Electronic parts
   
   | Item                   | PCS | Ref image                          | Notes                                                       |
   | ---------------------- | --- | ---------------------------------- | ------------------------------------------------------------|
-  | ESP32 LOLIN D32)       | 1   | ![](img/thumb/esp32.jpg)           |                                                             |  
-  | X volt battery         | 1   | ![](img/thumb/esp32.jpg)           |                                                             |  
-  | Choco switches         | 1   | ![](img/thumb/esp32.jpg)           |                                                             |  
+  | ESP32 LOLIN D32        | 1   | ![](medias/lolinD32.jpg)           |  Multiple ESP32 boards should work just fine                                                         |  
+  | Lipo Battery           | 1   | ![](medias/battery.jpeg)           |  3.7v and around 900mAh                                                            |  
+  | Choc Switches          | 2   | ![](medias/switch.jpeg)            |  Also compatible with Cherry MX switches                                                          |  
 
-#### Standard parts
+### Standard parts
   
   | Item                            | PCS  | Notes                                       |
   | ------------------------------- | ---- | ------------------------------------------- |
-  | M5-0.8x5mm screws               | 2    |  |
-  | M2x15 screws                    | 2    |  |
-  | M2x15 inserts                   | 9    |  |
+  | M3x8mm Screws                   | 2    |  |
+  | M2x8mm Screws                   | 2    |  |
+  | M2x6mm Inserts                  | 2    |  |
+  | M2x6mm Inserts                  | 2    |  |
 
 ### 3D printed parts
 
@@ -36,11 +35,14 @@ Etu{d,b}e simultaneously refers to the name of the augmented instrument, the eTu
 
 
 ## Firmware
-The controller uses the ESP32-BLE-Gamepad library 
-### Arduino Configuration
+The controller uses the [lemmingDev / ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) library.
 
-## Communication protocol
+### Arduino Configuration
+The development have been made using platformIO, the code is provided as is and might need some modification to run in your environement.
+
+### Communication protocol
+You should be able to connect to the eTube by selecting it in your Bluetooth device list.
+The controller is seen as HID so the buttons (with ID 4 and 5) information can be receive by any compatible software.
 
 ## Acknowledgment
-
 This work is supported by a 2021-2022 Student Award from the Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT).
