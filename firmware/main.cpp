@@ -13,7 +13,7 @@ BleGamepadConfiguration bleGamepadConfig;
 byte previousButtonStates[numOfButtons];
 byte currentButtonStates[numOfButtons];
 
-byte buttonPins[numOfButtons] = { 27, 15 };
+byte buttonPins[numOfButtons] = { 15, 27 };
 byte physicalButtons[numOfButtons] = { 1, 2 };
 
 void setup()
